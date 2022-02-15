@@ -1,0 +1,22 @@
+.background {
+    background-color: rgb(133, 247, 255);
+}
+
+.background:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    /* box-shadow: 0 0 10px #FFF; */
+    border: 0.15rem solid rgb(133, 247, 255);
+  }
+
+
+  .amount-container {
+      position: absolute;
+    top: 0;  
+      
+  }
+  
+  .amount {
+      align-items: center;
+      font-size: 15rem;
+      color: gold;
+  }

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+.app-grid_layout {
+  height: 100%; /*height: 100%; - gdy mamy więcej rzeczy w main (że trzeba scrollować) */
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: 100%;
+
+
+  background:
+  linear-gradient(0deg, rgba(41,41,41,1) 0%, rgba(17,17,17,1) 75%, rgba(0,0,0,1) 100%);
+
+/* 
+  overflow: hidden; */
+   /*hax żeby w <main> <h1> napisy byly podsobą (inline-block) sa obok siebie/ (block) zajmują cała linie tylko przez przesuniecie ich do prawej position: relative, wystaje obszar h1 - HA ALE ZNIKA FOOTER*/ 
+}
